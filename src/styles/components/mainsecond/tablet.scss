@@ -1,3 +1,27 @@
 @media only screen and (max-width:1024px) { 
 
-}
+    .section2 {
+        height: 1287px;
+        .hexacontainer { 
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            .hexagon.second {
+                transform: translate(-5px,-70px);
+            }
+            .hexagon.first{
+                transform: translate(-5px,-140px);
+            }
+            .hexagon.third{
+                transform: translate(-5px,6px);
+            }
+           
+        }   
+        .header2 { 
+            transform: translate(0, -65px);
+        }
+
+    }
+   
+    
+    }

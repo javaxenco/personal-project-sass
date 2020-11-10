@@ -151,6 +151,14 @@ header {
   .leftarrow, .rightarrow {
     display: none;
   }
+
+  header {
+    height: 592px;
+  }
+
+  .secondcontainer {
+    transform: translate(0%, 61%);
+  }
 }
 .firstsection {
   width: 100%;
@@ -354,6 +362,28 @@ header {
   margin-left: 48px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .section2 {
+    height: 1287px;
+  }
+  .section2 .hexacontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section2 .hexacontainer .hexagon.second {
+    transform: translate(-5px, -70px);
+  }
+  .section2 .hexacontainer .hexagon.first {
+    transform: translate(-5px, -140px);
+  }
+  .section2 .hexacontainer .hexagon.third {
+    transform: translate(-5px, 6px);
+  }
+  .section2 .header2 {
+    transform: translate(0, -65px);
+  }
+}
 .section3 {
   width: 100%;
   position: relative;
@@ -506,6 +536,55 @@ header {
   padding-top: 6px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .section3 {
+    transform: translateY(-30px);
+  }
+
+  .biggrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 451px;
+    padding-left: 25px;
+    padding-right: 25px;
+    grid-row-gap: 21px;
+    grid-column-gap: 21px;
+    transform: translateY(-25px);
+  }
+  .biggrid .grid1 {
+    grid-column: 1/2;
+    grid-row: 1/1;
+  }
+  .biggrid .grid2 {
+    grid-column: 2/3;
+    grid-row: 1/1;
+  }
+  .biggrid .grid3 {
+    grid-column: 3/4;
+    grid-row: 1/1;
+  }
+  .biggrid .grid4 {
+    grid-column: 1/2;
+    grid-row: 2/2;
+  }
+  .biggrid .grid5 {
+    grid-column: 2/3;
+    grid-row: 2/2;
+  }
+  .biggrid .grid6 {
+    grid-column: 3/4;
+    grid-row: 2/2;
+  }
+  .biggrid .grid7 {
+    display: none;
+  }
+
+  .biggrid div {
+    height: 229px;
+    width: 225px;
+  }
+}
 .section4 {
   position: relative;
   width: 100%;
