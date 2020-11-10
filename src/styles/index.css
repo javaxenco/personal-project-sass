@@ -338,6 +338,20 @@ header {
     color: #525252;
     font-weight: 500;
   }
+  .meoresmeore .readmore {
+    width: 138px;
+    height: 42px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background-color: #3ab6b2;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 42px;
+    font-weight: 600;
+    margin-top: 45px;
+  }
 
   .fcontainer {
     display: none;
@@ -446,6 +460,7 @@ header {
 @media only screen and (max-width: 1024px) {
   .section2 {
     height: 1287px;
+    margin-top: 71px;
   }
   .section2 .hexacontainer {
     display: flex;
@@ -699,11 +714,6 @@ header {
   }
   .biggrid .grid7 {
     display: none;
-  }
-
-  .biggrid div {
-    height: 229px;
-    width: 225px;
   }
 }
 @media only screen and (max-width: 1600px) {
