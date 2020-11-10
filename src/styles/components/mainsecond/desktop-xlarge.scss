@@ -1,0 +1,96 @@
+.section2 { 
+    width: 100%;
+    position: relative;
+    min-width: 1170px;
+    height: 783px;
+    margin-top: 127px;
+    background-image: url(https://images.unsplash.com/photo-1539946309076-4daf2ea73899?ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 135.7px;
+}
+
+.containertwo {
+    width: 1188px;
+    margin: auto;
+}
+.header2 { 
+    margin:auto;
+    width: 150px;
+    height: 63.25px;
+    font-size:31px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.header2 img { 
+    width:19px;
+    height: 19px;
+}
+
+.hexacontainer { 
+    padding-top: 137.8px;
+    display: flex;
+    justify-content: space-between;
+    width: 1174px;
+    height: 364.5px;
+    margin: auto;
+   
+}
+.hexagon {
+    height: 364.5px;
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.hexaimage { 
+    width: 124.52px;
+    height: 144.37px;
+   align-self: center;
+}
+.hexahead {
+    color: #3AB6B2;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    align-self: center;
+padding-bottom: 13px;
+padding-top: 44px;
+
+}
+.hexap { 
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+   text-align: center;
+   line-height: 22px;
+   letter-spacing: 0.1px;
+   
+}
+
+.hovericha { 
+    margin-top: -150px;
+    display:none;
+}
+.hexagon:hover .hovericha {
+    display: block;
+}
+
+.hexicon { 
+    margin-top:-90px;
+    margin-left:48px;
+}
+
+
+
+
+
+
+
+
+
+
+

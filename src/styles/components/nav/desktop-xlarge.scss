@@ -1,0 +1,49 @@
+nav { 
+    width: 100%;
+    min-width: 1170px;
+    height: 102px;
+    background-color: #000000;
+    position: relative;
+    
+} 
+.navbar { 
+    width: 740px;
+    height: 19px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+ 
+}
+    .firstul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+      
+    }
+.navbar ul li { 
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.firstcontainer { 
+    width: 1170px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logofirst span { 
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: white;
+}
+.logofirst{
+    margin-bottom: 6px;
+    margin-left: -6px;
+}
+.menu {
+    display: none;
+}
