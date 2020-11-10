@@ -1,3 +1,57 @@
 @media only screen and (max-width:1024px) { 
-
+    
+    .firstsection {
+        padding-top: 69.2px; }
+    
+    .meoresmeore{
+        display:block;
+        .blackbox {
+            height: 421px;
+            margin-left: 25px;
+            margin-right: 25px;
+            background-color: black;
+            margin-top:57px;
+        }
+        .aboutus {
+            margin-top:25.2px;
+            font-size: 25px;
+            font-family: 'Raleway', sans-serif;
+            margin-left: 25px;
+            border-bottom: 1px #E6E6E6 solid;
+            margin-right: 25px;
+            padding-bottom: 16.7px;
+            font-weight: 600;
+            letter-spacing: -0.4px;
+        }
+        .aboutus2 {
+            margin-top:20px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 13px;
+            color: #525252;
+            margin-left: 25px;
+            margin-right: 25px;
+            line-height: 22px;
+        }
+        .ulcontainer {
+            margin-top: 45px;
+            margin-left: 50px;
+            margin-right: 25px;
+            width:580px;
+             ul { 
+                 list-style-image: url(../images/mainfirst/CheckIcon1.svg);
+                 
+                    li {
+                        margin-bottom: 18px;
+                        line-height: 22px;
+                        font-size: 13px;
+                 font-family: 'Open Sans', sans-serif;
+                 color: #525252;
+                 font-weight: 500;
+                    }
+                }
+        }
+    }
+    .fcontainer{
+        display: none;
+    } 
 }

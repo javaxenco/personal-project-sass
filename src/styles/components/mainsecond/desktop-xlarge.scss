@@ -32,8 +32,9 @@
 .hexacontainer { 
     padding-top: 137.8px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
     height: 364.5px;
     margin: auto;
    
@@ -43,7 +44,6 @@
     width: 295px;
     display: flex;
     flex-direction: column;
-   
     
 }
 .hexaimage { 
@@ -83,9 +83,6 @@ padding-top: 44px;
     margin-top:-90px;
     margin-left:48px;
 }
-
-
-
 
 
 

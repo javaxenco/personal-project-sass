@@ -282,6 +282,74 @@ header {
   width: 205px;
 }
 
+.meoresmeore {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .firstsection {
+    padding-top: 69.2px;
+  }
+
+  .meoresmeore {
+    display: block;
+  }
+  .meoresmeore .blackbox {
+    height: 421px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: black;
+    margin-top: 57px;
+  }
+  .meoresmeore .aboutus {
+    margin-top: 25.2px;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 25px;
+    border-bottom: 1px #E6E6E6 solid;
+    margin-right: 25px;
+    padding-bottom: 16.7px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+  }
+  .meoresmeore .aboutus2 {
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    color: #525252;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 22px;
+  }
+  .meoresmeore .ulcontainer {
+    margin-top: 45px;
+    margin-left: 50px;
+    margin-right: 25px;
+    width: 580px;
+  }
+  .meoresmeore .ulcontainer ul {
+    list-style-image: url(../images/mainfirst/CheckIcon1.svg);
+  }
+  .meoresmeore .ulcontainer ul li {
+    margin-bottom: 18px;
+    line-height: 22px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    color: #525252;
+    font-weight: 500;
+  }
+
+  .fcontainer {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .hexacontainer {
+    justify-content: space-between !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
 .section2 {
   width: 100%;
   position: relative;
@@ -315,7 +383,9 @@ header {
 .hexacontainer {
   padding-top: 137.8px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-left: 300px;
+  padding-right: 300px;
   height: 364.5px;
   margin: auto;
 }
@@ -366,6 +436,13 @@ header {
   margin-left: 48px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .hexacontainer {
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .section2 {
     height: 1287px;
@@ -374,6 +451,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
   }
   .section2 .hexacontainer .hexagon.second {
     transform: translate(-5px, -70px);
@@ -540,6 +618,45 @@ header {
   padding-top: 6px;
 }
 
+@media only screen and (max-width: 767px) {
+  .section3 .biggrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 680px;
+    padding-left: 25px;
+    padding-right: 25px;
+    grid-row-gap: 7px;
+    transform: translate(-12px, -25px);
+  }
+  .section3 .biggrid .grid1 {
+    grid-column: 1/2;
+    grid-row: 1/1;
+  }
+  .section3 .biggrid .grid2 {
+    grid-column: 1/2;
+    grid-row: 1/1;
+  }
+  .section3 .biggrid .grid3 {
+    grid-row: 3/3;
+  }
+  .section3 .biggrid .grid4 {
+    grid-row: 4/4;
+  }
+  .section3 .biggrid .grid5 {
+    display: none;
+  }
+  .section3 .biggrid .grid6 {
+    display: none;
+  }
+  .section3 .biggrid .grid7 {
+    display: none;
+  }
+  .section3 .biggrid div {
+    height: 280px;
+    width: 163px;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .section3 {
     transform: translateY(-30px);
@@ -589,6 +706,20 @@ header {
     width: 225px;
   }
 }
+@media only screen and (max-width: 1600px) {
+  .tvini {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .fields div {
+    transform: translateX(0px) !important;
+  }
+
+  .submit {
+    transform: translateX(0px) !important;
+  }
+}
 .section4 {
   position: relative;
   width: 100%;
@@ -612,6 +743,11 @@ header {
 .header4 img {
   width: 16px;
   height: 16px;
+}
+
+.tvini {
+  padding-left: 520px;
+  padding-right: 520px;
 }
 
 .adress {
@@ -689,6 +825,7 @@ header {
   font-size: 15px;
   font-family: "Raleway", "sans-serif";
   color: #7C7C7C;
+  transform: translateX(-30px);
 }
 
 .firstfield {
@@ -717,6 +854,7 @@ header {
   background-color: #3AB6B2;
   text-align: center;
   margin-top: 47px;
+  transform: translateX(-30px);
 }
 
 .submit span {
@@ -739,6 +877,17 @@ header {
   }
   .contactcontainer .submit {
     margin-left: 24px;
+  }
+
+  .tvini {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .tvini .fields div {
+    transform: translateX(0px);
+  }
+  .tvini .submit {
+    transform: translateX(0px);
   }
 }
 footer {

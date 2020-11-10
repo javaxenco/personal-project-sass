@@ -20,7 +20,10 @@
     width:16px;
     height: 16px;
 }
-
+    .tvini {
+        padding-left:520px;
+        padding-right: 520px;
+    }
 .adress { 
     display: flex;
     
@@ -92,6 +95,7 @@
      font-size:15px;
      font-family: 'Raleway', 'sans-serif';
      color: #7C7C7C;
+     transform: translateX(-30px);
  }
  .firstfield { 
      grid-row: 1/1;
@@ -115,6 +119,7 @@
     background-color:#3AB6B2;
     text-align:center;
     margin-top: 47px;
+    transform: translateX(-30px);
 }
 .submit span { 
     font-family: 'Raleway', 'sans-serif';

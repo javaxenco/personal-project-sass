@@ -12,4 +12,15 @@
                 margin-left: 24px;
             }
         }
+        .tvini {
+            padding-left: 0px;
+            padding-right: 0px;
+        
+           .fields div {
+               transform: translateX(0px);
+           } 
+           .submit {
+               transform: translateX(0px);
+           }
+        }
 }
