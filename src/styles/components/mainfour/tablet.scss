@@ -1,3 +1,15 @@
 @media only screen and (max-width:1024px) { 
-
+        .contactcontainer {
+            transform: translateY(-42px);
+        
+            .adress {
+                padding-top: 55px;
+            }
+            .fields {
+                margin-top: 55px;
+            }
+            .submit {
+                margin-left: 24px;
+            }
+        }
 }

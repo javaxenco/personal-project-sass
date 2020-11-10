@@ -167,12 +167,14 @@ header {
 }
 
 .fcontainer {
+  width: 1170px;
   height: 580px;
   margin: auto;
 }
 
 .header1 {
   margin: auto;
+  width: 212px;
   height: 68.25px;
   font-size: 31px;
   font-family: "Raleway", sans-serif;
@@ -241,6 +243,7 @@ header {
 }
 
 .features {
+  width: 275.5px;
   height: 89.71px;
   display: flex;
 }
@@ -276,6 +279,7 @@ header {
 
 .textflow {
   padding-left: 27.5px;
+  width: 205px;
 }
 
 .section2 {
@@ -550,7 +554,7 @@ header {
     padding-right: 25px;
     grid-row-gap: 21px;
     grid-column-gap: 21px;
-    transform: translateY(-25px);
+    transform: translate(-12px, -25px);
   }
   .biggrid .grid1 {
     grid-column: 1/2;
@@ -592,7 +596,6 @@ header {
 }
 
 .contactcontainer {
-  height: 687.25px;
   margin: auto;
 }
 
@@ -724,6 +727,20 @@ header {
   line-height: 42px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .contactcontainer {
+    transform: translateY(-42px);
+  }
+  .contactcontainer .adress {
+    padding-top: 55px;
+  }
+  .contactcontainer .fields {
+    margin-top: 55px;
+  }
+  .contactcontainer .submit {
+    margin-left: 24px;
+  }
+}
 footer {
   margin-top: 122px;
   position: relative;
@@ -774,6 +791,11 @@ footer {
   margin-top: 49px;
 }
 
+@media only screen and (max-width: 1024px) {
+  footer {
+    margin-top: 34px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
