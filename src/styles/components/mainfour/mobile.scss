@@ -1,3 +1,51 @@
 @media only screen and (max-width:768px) { 
+    .section4 {
+        margin-top: -7px;
+    }
+    .header4 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .adress{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+      
+        padding-top: 32px !important;
+        
+    }
+    .adress div{
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .adress> div:last-child{
+       
+        margin-top: 13px;
+        transform: translateX(7px);
+    }
+    .connector{
+        margin-top: 0px;
+    }
+    .fields {
+    margin-top: 10px !important;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+  
+    grid-template-rows: repeat(3,46px) 125px;
+    }
+    .firstfield{
+      
+        grid-column: span 2;
+
+    }
+    .secondfield{
+        grid-column: span 2;
+
+    }
+    .submit {
+        margin-top: 10px;
+    }
+
 
 }

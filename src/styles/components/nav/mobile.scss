@@ -1,4 +1,16 @@
 @media only screen and (max-width:768px) { 
-
-
+    .menu img { 
+        width: 48px !important;
+        height: 31px !important;
+    }
+    .logofirst span { 
+       
+        font-size: 27px !important;
+    }
+    .logofirst img{
+        height: 32px;
+    }
+    nav {
+        height: 66.66px;
+    }
 }

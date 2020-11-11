@@ -1,3 +1,31 @@
 @media only screen and (max-width:768px) { 
-
+    .ulcontainer { 
+        width: auto !important;
+    }
+    .damaluli {
+        display: none;
+    }
+    .header1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .blackbox{
+        width: 280px;
+        height: 207px !important;
+        margin-top: 26px !important;
+    }
+    .firstsection {
+        padding-top: 32.3px !important;
+    }
+    .aboutus{
+        font-size: 16px !important;
+        margin-top: 15.3px !important;
+    }
+    .aboutus2{
+        margin-top: 0px !important;
+    }
+   
+    .ulcontainer { 
+        margin-left: 40px !important;
+    }
 }

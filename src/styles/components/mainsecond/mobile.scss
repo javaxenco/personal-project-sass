@@ -1,3 +1,24 @@
 @media only screen and (max-width:768px) { 
-
+    .section2 {
+        height: 1107px !important;
+       margin-top: 42.3px !important;
+    }
+    .header2 {
+        font-size: 27px;
+        text-align: center;
+        transform: translate(0, -100px) !important;
+    }
+    .hexagon.first{
+        transform: translate(0px,-193px) !important;
+    }
+    .hexagon.second {
+        transform: translate(0px,-160px) !important;
+    }
+    .hexagon.third{
+        transform: translate(0px,-130px) !important;
+    }
+    .hexahead{font-size: 19px;
+    }
+    .hexap {font-size: 13px;
+    }
 }

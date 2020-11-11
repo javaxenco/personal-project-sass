@@ -1,3 +1,30 @@
-@media only screen and (max-width:768px) { 
-
-}
+@media only screen and (max-width:768px) {
+    header{
+        height: 215px !important;
+    }
+        .secondfirst{
+            font-size: 25px;
+        }
+        .secondsecond {
+            font-size: 30px;
+        }
+        .secondthird {
+            font-size: 7px;
+        }
+        .secondcontainer {
+            transform: translate(0%,0%) !important;
+            height: auto;
+            padding-top: 42.4px;
+        }
+        .firstbutton {
+             width: 70px;
+             height: 19px;
+             text-align:center;
+             margin-top: 16px;
+        }
+        .firstbutton span {
+            font-size: 7px;
+            padding: 4.5px 10px 5.5px 13px !important;
+            line-height: 0px;
+        }
+}       
