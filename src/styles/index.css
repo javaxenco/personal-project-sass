@@ -1,3 +1,8 @@
+@media only screen and (max-width: 1600px) {
+  .navbar {
+    transform: translateX(0px) !important;
+  }
+}
 nav {
   width: 100%;
   height: 102px;
@@ -9,7 +14,7 @@ nav {
   width: 740px;
   height: 19px;
   margin-bottom: 10px;
-  margin-right: 5px;
+  transform: translateX(-110px);
 }
 
 .firstul {
@@ -28,7 +33,7 @@ nav {
   height: 100%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -41,7 +46,7 @@ nav {
 
 .logofirst {
   margin-bottom: 6px;
-  margin-left: -6px;
+  transform: translateX(102px);
 }
 
 .menu {
@@ -54,10 +59,10 @@ nav {
   }
 
   .navbar {
-    margin-right: 10px;
+    transform: translateX(30px) !important;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .menu img {
     width: 48px !important;
     height: 31px !important;
@@ -87,17 +92,19 @@ nav {
 
   .logofirst {
     margin-left: 25px;
+    transform: translateX(0px) !important;
   }
 
   .firstcontainer {
     width: 100%;
+    justify-content: space-between;
   }
 }
 header {
   width: 100%;
   height: 760px;
   position: relative;
-  background-image: url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/F_WATER_10B.jpg?crop=0,259,4621,2541&wid=4000&hei=2200&scl=1.15525);
+  background-image: url(../images/header/water.jpg);
 }
 
 .secondcontainer {
@@ -164,7 +171,7 @@ header {
   height: 37px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   header {
     height: 215px !important;
   }
@@ -339,7 +346,32 @@ header {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+.monitor {
+  position: relative;
+}
+
+.naturehd {
+  position: absolute;
+  width: 475px;
+  height: 270px;
+  left: 3%;
+  top: 4%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .firstgrid {
+    padding-top: 50.2px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 36.3px;
+  }
+
+  .fcontainer {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 767px) {
   .ulcontainer {
     width: auto !important;
   }
@@ -459,7 +491,7 @@ header {
   position: relative;
   height: 783px;
   margin-top: 127px;
-  background-image: url(https://images.unsplash.com/photo-1539946309076-4daf2ea73899?ixlib=rb-1.2.1&w=1000&q=80);
+  background-image: url(../images/mainsecond/naturewall.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 135.7px;
@@ -547,7 +579,7 @@ header {
     padding-right: 0px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .section2 {
     height: 1107px !important;
     margin-top: 42.3px !important;
@@ -1000,7 +1032,7 @@ header {
   line-height: 42px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .section4 {
     margin-top: -7px;
   }
@@ -1077,11 +1109,10 @@ header {
   }
 }
 footer {
-  margin-top: 122px;
+  margin-top: 91px;
   position: relative;
   width: 100%;
   min-height: 298px;
-  padding-top: 48px;
   background: #111111;
 }
 footer .lastcontainer {
@@ -1090,6 +1121,7 @@ footer .lastcontainer {
   align-items: center;
   margin: auto;
   width: 285px;
+  padding-top: 43px;
 }
 footer .lastcontainer .lastparry span {
   font-family: "Raleway", sans-serif;
@@ -1123,7 +1155,7 @@ footer .copyright {
   margin-top: 49px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   footer {
     padding-top: 22px;
     padding-bottom: 40px;

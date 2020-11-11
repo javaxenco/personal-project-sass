@@ -10,7 +10,7 @@ nav {
     width: 740px;
     height: 19px;
     margin-bottom: 10px;
-    margin-right: 5px;
+    transform: translateX(-110px);
 
  
 }
@@ -31,7 +31,7 @@ nav {
     height: 100%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .logofirst span { 
@@ -42,7 +42,7 @@ nav {
 }
 .logofirst{
     margin-bottom: 6px;
-    margin-left: -6px;
+    transform: translateX(102px);
 }
 .menu {
     display: none;
